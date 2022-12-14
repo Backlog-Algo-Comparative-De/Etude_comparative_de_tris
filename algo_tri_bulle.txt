@@ -1,1 +1,30 @@
 Algorithme pour le tri à bulles normal
+
+tab = tableau d’entiers
+variable échange
+
+Début (param taille tableau)
+
+    Pour i allant de 0 à taille tableau
+            
+        ajouter valeur aléatoire entre 1 et 20 à Tab
+
+    Fin Pour
+
+    Pour i allant de taille tableau à 1
+
+        Pour j allant de 0 à i - 1
+
+            Si élément j de tab < élément j+1 de tab
+
+                 echange = élément j
+                 élément j = élément j+1
+                 élément j+1 = echange
+
+            Fin Si
+
+        Fin Pour
+
+    Fin Pour
+
+Fin
