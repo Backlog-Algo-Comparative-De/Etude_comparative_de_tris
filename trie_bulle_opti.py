@@ -1,12 +1,12 @@
 def tri_bulle_opti(tab):
-    estTrie = True
+    estTrie = False
 
-    while(estTrie):
-        estTrie = False
+    while(not estTrie):
+        estTrie = True
         for i in range(len(tab) - 1):
             if tab[i] > tab[i+1]:
                 tab[i], tab[i+1] = tab[i+1], tab[i]
-                estTrie = True
+                estTrie = False
 
     return tab
     
