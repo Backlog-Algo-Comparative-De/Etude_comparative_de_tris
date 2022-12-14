@@ -15,7 +15,7 @@ Début (param taille tableau)
 
         Pour j allant de 0 à i - 1
 
-            Si élément j de tab < élément j+1 de tab
+            Si élément j de tab > élément j+1 de tab
 
                  echange = élément j
                  élément j = élément j+1
