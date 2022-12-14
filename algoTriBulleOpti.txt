@@ -1,0 +1,16 @@
+Debut
+
+Declarer Tableau avec valeur aleatoire
+
+fonction tri_à_bulles_optimisé(Tableau)
+    tableau_trié = faux
+
+    TantQue le tableau n'est pas trié:
+        tableau_trié = vrai
+        Pour i allant de 0 à taille(Tableau)-1
+            si Tableau[i+1] < Tableau[i]
+                (Tableau[j+1], Tableau[j] = Tableau[j], Tableau[j+1]
+                tableau_trié = faux
+        FinPour
+    FinTantQue
+Fin
