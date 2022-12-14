@@ -1,0 +1,11 @@
+procédure tri_insertion (liste T)
+    i = index 
+
+    pour i de 1 à taille de (T) -1
+    x = T(i)
+    j = i
+
+    tant que (j)>0 et T(j-1) > x
+             T(j) = T (j-1)
+             j = j - 1
+             x = T(j)
