@@ -2,8 +2,10 @@ from random import *
 
 tab = []
 
-for i in range(10):
-    tab.append(10-i)
+# décommenter ceci pour faire un tableau invers
+
+""" for i in range(10):
+    tab.append(10-i) """
 
 
 def tri_bulle_opti(tab):
