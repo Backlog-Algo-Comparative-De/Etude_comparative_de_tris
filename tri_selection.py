@@ -1,18 +1,3 @@
-#[1, 38, 111, 4, 17, 47, 86, 55, 77, 90,]
-
-tab = []
-
-
-# décommenter ceci pour faire un tableau parfait
-
-""" for i in range (10):
-    tab.append(i) """
-    
-# décommenter ceci pour faire un tableau invers
-    
-""" for i in range (10):
-    tab.append(10 - i) """
-
 def tri_selection(tab):
     
     affectations = 0
@@ -36,4 +21,3 @@ def tri_selection(tab):
     print(comparaisons, affectations)
 
 
-tri_selection(tab)
