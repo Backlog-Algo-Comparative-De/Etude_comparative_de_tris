@@ -1,9 +1,9 @@
 Meilleurs des cas (Tableau de 10 éléments):
 
-Comparaison = 1;
+Comparaison = 10;
 Affectations = 2;
 
 Pire des cas:
 
-Comparaisons = 55;
+Comparaisons = 91;
 Affectations = 191;
