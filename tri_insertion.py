@@ -1,10 +1,3 @@
-import random
-
-tableau = []
-
-for i in range(10):
-    tableau.append(random.randint(0,200))
-
 def tri_insertion (tableau):
     comparaison = 0
     affectation = 0
@@ -34,5 +27,3 @@ def tri_insertion (tableau):
     l.append(comparaison)
     l.append(affectation)
     return l
-
-print(tri_insertion(tableau))
