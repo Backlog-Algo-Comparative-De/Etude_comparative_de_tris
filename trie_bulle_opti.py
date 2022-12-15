@@ -1,11 +1,3 @@
-from random import *
-
-tab = []
-
-for i in range(10):
-    tab.append(randint(0,200))
-
-
 def tri_bulle_opti(tab):
     compteurAffectation = 0
     compteurComparaison = 0
@@ -37,6 +29,3 @@ def tri_bulle_opti(tab):
 
     return liste1
     
-
-print(tri_bulle_opti(tab))
-
