@@ -17,8 +17,9 @@ def tri_insertion (tableau):
         j = i
         affectation+=1
 
+        comparaison+=2
         while j>0 and tableau[j-1]>lacase:
-            comparaison+=2
+            
 
             tableau[j]=tableau[j-1]
             affectation += 1

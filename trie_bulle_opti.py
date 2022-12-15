@@ -3,7 +3,7 @@ from random import *
 tab = []
 
 for i in range(10):
-    tab.append(10-i)
+    tab.append(randint(0,200))
 
 
 def tri_bulle_opti(tab):
@@ -14,16 +14,17 @@ def tri_bulle_opti(tab):
     estTrie = False
     compteurAffectation +=1
 
+    compteurComparaison +=1
     while(not estTrie):
-        compteurComparaison +=1
+        
 
         estTrie = True
         compteurAffectation +=1 
 
         for i in range(len(tab) - 1):
+            compteurComparaison += 1
             if tab[i] > tab[i+1]:
-                compteurComparaison += 1
-
+                
                 tab[i], tab[i+1] = tab[i+1], tab[i]
                 compteurAffectation += 3
 
