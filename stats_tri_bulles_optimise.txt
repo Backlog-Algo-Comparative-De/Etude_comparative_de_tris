@@ -1,0 +1,9 @@
+Meilleurs des cas (Tableau de 10 éléments):
+
+Comparaison = 1;
+Affectations = 2;
+
+Pire des cas:
+
+Comparaisons = 55;
+Affectations = 191;

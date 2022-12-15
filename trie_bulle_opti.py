@@ -3,7 +3,7 @@ from random import *
 tab = []
 
 for i in range(10):
-    tab.append(randint(0,200))
+    tab.append(10-i)
 
 
 def tri_bulle_opti(tab):
