@@ -1,8 +1,16 @@
 from random import randint
 tab = []
 
-for i in range(20):
+for i in range(10):
     tab.append(randint(1, 200))
+
+"""# tableau parfait
+for i in range(10):
+    tab.append(i)
+    
+# tableau inversé
+for i in range(10):
+    tab.append(10 - i)"""
 
 
 def tri_a_bulle(tableau):
