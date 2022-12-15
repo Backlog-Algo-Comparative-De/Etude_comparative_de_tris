@@ -1,24 +1,7 @@
-from random import randint
-tab = []
-
-for i in range(10):
-    tab.append(randint(1, 200))
-
-"""# tableau parfait
-for i in range(10):
-    tab.append(i)
-    
-# tableau inversé
-for i in range(10):
-    tab.append(10 - i)"""
-
-
 def tri_a_bulle(tableau):
-
     comparaisons = 0
     affectations = 0
-
-    print(tableau)
+    l = []
 
     for i in range((len(tableau)), 1, -1):
 
@@ -26,17 +9,13 @@ def tri_a_bulle(tableau):
 
             comparaisons += 1
             if tableau[j] > tableau[j + 1]:
-
                 echange = tableau[j]
                 tableau[j] = tableau[j + 1]
                 tableau[j + 1] = echange
                 affectations += 3
 
-        print(tableau)
-    print(comparaisons)
-    print(affectations)
+    l.append(tableau)
+    l.append(comparaisons)
+    l.append(affectations)
 
-
-tri_a_bulle(tab)
-
-# print(tab)
+    return l

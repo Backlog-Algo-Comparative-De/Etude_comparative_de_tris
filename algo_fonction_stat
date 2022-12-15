@@ -1,0 +1,31 @@
+Algorithme pour la fonction stat
+
+variable moyenne
+
+Début (params min ,max, step, nbr)
+
+    Pour i allant de min à max avec un pas de step
+
+        Pour j allant de 1 à nbr
+
+            créer un tableau tab
+
+            Pour k allant de 0 à i
+
+                ajouter nombre aléatoire à tab
+
+            Fin Pour
+
+            appeler la fonction de tri
+
+            moyenne = moyenne + opérations
+
+        Fin Pour
+
+        moyenne = moyenne / i
+
+        afficher i : moyenne
+
+    Fin Pour
+
+Fin
