@@ -24,6 +24,5 @@ def tri_insertion (tableau):
         affectation+=1
 
     l.append(tableau)
-    l.append(comparaison)
-    l.append(affectation)
+    l.append(comparaison + affectation)
     return l

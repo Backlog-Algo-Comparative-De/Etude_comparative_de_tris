@@ -24,8 +24,7 @@ def tri_bulle_opti(tab):
                 compteurAffectation += 1
     
     liste1.append(tab)
-    liste1.append(compteurComparaison)
-    liste1.append(compteurAffectation)
+    liste1.append(compteurComparaison + compteurAffectation)
 
     return liste1
     

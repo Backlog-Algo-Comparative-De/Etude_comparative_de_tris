@@ -1,4 +1,6 @@
 def tri_selection(tab):
+
+    l = []
     
     affectations = 0
     comparaisons = 0
@@ -17,7 +19,12 @@ def tri_selection(tab):
             tab[i] = tab[min]
             tab[min] = tmp
             affectations += 3
-    print(tab)
-    print(comparaisons, affectations)
+
+    l.append(tab)
+    l.append(comparaisons + affectations)
+
+    return l
+
+
 
 

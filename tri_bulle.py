@@ -4,7 +4,6 @@ def tri_a_bulle(tableau):
     affectations = 0
     l = []
 
-
     for i in range((len(tableau)), 1, -1):
 
         for j in range(0, (i - 1)):
@@ -18,6 +17,5 @@ def tri_a_bulle(tableau):
                 affectations += 3
 
     l.append(tableau)
-    l.append(comparaisons)
-    l.append(affectations)
+    l.append(comparaisons + affectations)
     return l
