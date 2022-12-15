@@ -1,0 +1,16 @@
+Pour un tableau de 10 parfait
+
+comparaisons : 54
+affectations : 9
+
+Pour un tableau invers
+
+comparaisons : 54
+affectations : 49
+
+Pour un tableau mal ordonnée
+
+comparaisons : 54
+affectations : 39
+
+
