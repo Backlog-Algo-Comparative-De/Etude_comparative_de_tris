@@ -17,8 +17,8 @@ def tri_a_bulle(tableau):
 
     comparaisons = 0
     affectations = 0
+    l = []
 
-    print(tableau)
 
     for i in range((len(tableau)), 1, -1):
 
@@ -32,11 +32,12 @@ def tri_a_bulle(tableau):
                 tableau[j + 1] = echange
                 affectations += 3
 
-        print(tableau)
-    print(comparaisons)
-    print(affectations)
+    l.append(tableau)
+    l.append(comparaisons)
+    l.append(affectations)
+    return l
 
 
-tri_a_bulle(tab)
+print(tri_a_bulle(tab))
 
 # print(tab)
