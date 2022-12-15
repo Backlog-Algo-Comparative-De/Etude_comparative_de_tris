@@ -8,10 +8,10 @@ tab = []
 """ for i in range (10):
     tab.append(i) """
     
-# décommenter ceci pour faire un tableau qui pu la merde
+# décommenter ceci pour faire un tableau invers
     
-for i in range (10):
-    tab.append(10 - i)
+""" for i in range (10):
+    tab.append(10 - i) """
 
 def tri_selection(tab):
     
