@@ -1,9 +1,9 @@
-Meilleur des cas:
+Meilleur des cas (tableau de 10 éléments):
 
 comparaisons : 45
 affectations : 0
 
-Pire des cas :
+Pire des cas (tableau de 10 éléments):
 
 comparaisons : 45
 affectations : 135

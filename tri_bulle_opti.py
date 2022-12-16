@@ -1,7 +1,16 @@
 def tri_bulle_opti(tab):
+
+    """
+    Fonction pour trier un tableau avec le tri à bulle opti
+    :param tab: le tableau qu'on va trier
+    :return: le tableau trié et le nombre d'opérations effectuées
+    """
+
+    # Initialisation des compteurs et de la liste qui va etre return a la fin
     compteurAffectation = 0
     compteurComparaison = 0
     liste1 = []
+
 
     estTrie = False
     compteurAffectation +=1
@@ -14,6 +23,7 @@ def tri_bulle_opti(tab):
         compteurAffectation +=1 
 
         for i in range(len(tab) - 1):
+
             compteurComparaison += 1
             if tab[i] > tab[i+1]:
                 

@@ -6,6 +6,14 @@ from tri_bulle_opti import tri_bulle_opti
 
 
 def stat(min, max, step, nbr):
+    """
+    Fonction pour calculer le nombre moyen d'opérations des tris
+    :param min: la longueur minimale d'un tableau
+    :param max: la longueur maximale d'un tableau
+    :param step: le pas entre les différentes longueurs
+    :param nbr: le nombre de tableaux à créer pour chaque longueur
+    :return:
+    """
 
     moyenne = 0
 
@@ -17,7 +25,7 @@ def stat(min, max, step, nbr):
 
         for j in range(nbr):
 
-            moyenne = 0
+            # moyenne = 0
 
             tableau = []
 

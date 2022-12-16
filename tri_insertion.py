@@ -1,4 +1,10 @@
 def tri_insertion (tableau):
+
+    """
+    Fonction pour trier un tableau avec le tri insertion
+    :param tableau: le tableau qu'on va trier
+    :return: le tableau trié et le nombre d'opérations effectuées
+    """
     comparaison = 0
     affectation = 0
     l = []

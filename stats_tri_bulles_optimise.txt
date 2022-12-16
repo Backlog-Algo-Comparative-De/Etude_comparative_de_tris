@@ -1,6 +1,6 @@
-Meilleurs des cas (Tableau de 10 éléments):
+Meilleur des cas (Tableau de 10 éléments):
 
-Comparaison = 10;
+Comparaisons = 10;
 Affectations = 2;
 
 Pire des cas:

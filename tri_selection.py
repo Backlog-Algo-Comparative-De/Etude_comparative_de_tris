@@ -1,5 +1,11 @@
 def tri_selection(tab):
 
+    """
+    Fonction pour trier un tableau avec le tri sélection
+    :param tab: le tableau qu'on va trier
+    :return: le tableau trié et le nombre d'opérations effectuées
+    """
+
     l = []
     
     affectations = 0

@@ -17,9 +17,7 @@ Début (param taille tableau)
 
             Si élément j de tab > élément j+1 de tab
 
-                 echange = élément j
-                 élément j = élément j+1
-                 élément j+1 = echange
+                 échanger élément j et élément j+1
 
             Fin Si
 
