@@ -36,30 +36,3 @@ def stat(min, max, step, nbr):
 
 
 stat(10, 20, 5, 10)
-
-# générations aléatoires de tableaux et appelez la fonction de tri
-
-def tri_a_bulle(tableau):
-
-    comparaisons = 0
-    affectations = 0
-    l = []
-
-
-    for i in range((len(tableau)), 1, -1):
-
-        for j in range(0, (i - 1)):
-
-            comparaisons += 1
-            if tableau[j] > tableau[j + 1]:
-
-                echange = tableau[j]
-                tableau[j] = tableau[j + 1]
-                tableau[j + 1] = echange
-                affectations += 3
-
-    l.append(tableau)
-    l.append(comparaisons)
-    l.append(affectations)
-    
-    return l
