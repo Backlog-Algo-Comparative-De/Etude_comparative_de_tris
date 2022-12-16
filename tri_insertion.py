@@ -31,4 +31,6 @@ def tri_insertion (tableau):
 
     l.append(tableau)
     l.append(comparaison + affectation)
-    return l
+    return l[1]
+
+tri_insertion(pireDesCas)
